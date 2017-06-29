@@ -6,6 +6,18 @@ image_thumbs_loc: "/images/thumbs"
 sass:
   sass_dir: assets/css
   style: compressed
+exclude: [
+  "node_modules",
+  "src",
+  "*.sh",
+  "Dockerfile",
+  "Gemfile*",
+  "package.json",
+  "yarn.lock",
+  "webpack.config.js",
+  "LICENSE",
+  "README.md"
+]
 
 # UI configs
 title: "Photos"
