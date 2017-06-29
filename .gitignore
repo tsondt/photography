@@ -2,6 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .bundle/
+node_modules/
 images/*.JPG
 images/*.jpg
 images/watermark.png
