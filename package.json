@@ -1,0 +1,17 @@
+{
+  "name": "photos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tsondt/photos.git",
+  "author": "Son Dinh <tran.thai.son.dinh@intel.com>",
+  "license": "MIT",
+  "dependencies": {
+    "exif-js": "~2.2.1",
+    "jquery": "1",
+    "jquery.poptrox": "https://github.com/tsondt/jquery.poptrox",
+    "skel-framework": "https://github.com/ajlkn/skel.git"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
