@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-
 <!-- Wrapper -->
 <div id="wrapper">
-
     <!-- Header -->
     <header id="header">
         <h1><a href="index.html"><strong>Photos</strong><span> &copy; {{ site.author }}</span></a></h1>
@@ -19,7 +17,6 @@ layout: default
           </ul>
         </nav>
     </header>
-
     <!-- Main -->
     <div id="main">
         {% for image in site.static_files %}
@@ -27,13 +24,10 @@ layout: default
                 <article class="thumb">
                     <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
                     <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt="" data-name="{{ image.name }}"/></a>
-                    <!--<h2></h2>
-                    <p></p>-->
                 </article>
             {% endif %}
         {% endfor %}
     </div>
-
     <!-- Footer -->
     <footer id="footer" class="panel">
         <div class="inner split">
