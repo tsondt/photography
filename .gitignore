@@ -5,4 +5,3 @@ _site/
 node_modules/
 images/*.JPG
 images/*.jpg
-images/watermark.png
