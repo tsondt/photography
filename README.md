@@ -29,5 +29,5 @@ bundle exec jekyll serve
 ./docker-run.sh
 ```
 ---
-Published by [tsondt](https://github.com/tsondt) with [Jekyll](https://github.com/jekyll/jekyll).
+Published by [tsondt](https://tsondt.com) with [Jekyll](https://github.com/jekyll/jekyll).
 Forked from https://github.com/ramswaroop/photography using a template from [AJ](https://twitter.com/ajlkn). [License](LICENSE).
