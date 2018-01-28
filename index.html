@@ -5,14 +5,11 @@ layout: default
 <div id="wrapper">
     <!-- Header -->
     <header id="header">
-        <h1><a href="index.html"><strong>Photos</strong><span> &copy; {{ site.author }}</span></a></h1>
+        <h1><strong>Photos</strong><span> &copy; <a href="{{ site.author_url }}" target="_blank">{{ site.author }}</a></span></h1>
         <nav>
           <ul class="icons">
-              <li><a href="{{ site.social_urls.github }}" class="icon fa-github"><span
+              <li><a href="{{ site.social_urls.github }}" target="_blank" class="icon fa-github"><span
                       class="label">GitHub</span></a>
-              </li>
-              <li><a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin"><span
-                      class="label">LinkedIn</span></a>
               </li>
           </ul>
         </nav>

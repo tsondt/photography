@@ -21,11 +21,8 @@ exclude: [
 
 # UI configs
 title: "Photos"
-subtitle: ""
 author: "tsondt"
-bio: ""
-publicise: ""
+author_url: "https://tsondt.com"
 web_design: "AJ"
 social_urls:
-  linkedin: "https://ca.linkedin.com/in/tsondt"
-  github: "https://github.com/tsondt"
+  github: "https://github.com/tsondt/photos"

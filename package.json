@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:tsondt/photos.git",
-  "author": "Son Dinh <tran.thai.son.dinh@intel.com>",
+  "author": "tsondt",
   "license": "MIT",
   "dependencies": {
     "exif-js": "~2.2.1",

@@ -4,7 +4,7 @@ module.exports = {
   context: path.resolve(__dirname, './src'),
   entry: {
     main: [
-      'jquery',
+      'jquery/src/jquery',
       'jquery.poptrox',
       'exif-js',
       'skel-framework',
@@ -16,10 +16,9 @@ module.exports = {
     path: path.resolve(__dirname, './assets/js'),
     filename: '[name].js'
   },
-  plugins: [new webpack.ProvidePlugin({
-    $: 'jquery',
-    jQuery: 'jquery',
-    skel: 'skel-framework',
-    EXIF: 'exif-js'
-  })]
+  plugins: [
+    new webpack.ProvidePlugin({
+      'skel': 'skel-framework'
+    })
+  ]
 };
